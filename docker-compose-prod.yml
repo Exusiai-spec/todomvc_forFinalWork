@@ -1,0 +1,6 @@
+version: '3.3'
+services:  
+  frontend:
+    image: tenderness233/todo-app:latest
+    ports:
+      - "9999:80"
